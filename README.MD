@@ -14,18 +14,3 @@ Kernel:
 - Unlike UNIX Systems, Theres no need to login to a Root or Custom User.
 Filesystem:
 - Files are Stored in a Custom Filesystem Called KIFI
-/ (mount)
-|-dev/
-|    |-disk
-|-boot/
-|    |-boot.bin
-|-sys/
-|    |-ki.bin  (kernel)
-|    |-kb.bin  (keyboard driver)
-|    |-vga.bin (display driver)
-|    |-char.bin (Character Set, Varries based on the Language.)
-|-app/
-|    |-te.ki   (text editor)
-|    |-sh.ki   (shell)
-|    |-s.ki    (shutdown)
-|    |-more to come.
